@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var class_1 = require("./class");
+var squ = new class_1.Square('Square', 2, 4, 'Yellow');
+squ.GetArea();
+squ.GetPerimeter();
+squ.PrintColorAndName();
+var rec = new class_1.Rectangle('Rectangle', 2, 3, 2);
+rec.GetArea();
+rec.GetPerimeter();
